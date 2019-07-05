@@ -1,0 +1,13 @@
+com\alexssander\controleFinanceiro\resources\LancamentosResource.class
+com\alexssander\controleFinanceiro\config\JPAConfig.class
+com\alexssander\controleFinanceiro\services\LancamentoService.class
+com\alexssander\controleFinanceiro\models\Lancamento.class
+com\alexssander\controleFinanceiro\resources\exceptions\ResourceExceptionHandler.class
+com\alexssander\controleFinanceiro\repositories\LancamentoRepository.class
+com\alexssander\controleFinanceiro\services\exceptions\ObjectNotFoundException.class
+com\alexssander\controleFinanceiro\dto\LancamentoEstatisticaCategoria.class
+com\alexssander\controleFinanceiro\repositories\custom\LancamentoRepositoryQuery.class
+com\alexssander\controleFinanceiro\config\WebConfig.class
+com\alexssander\controleFinanceiro\init\AppInitializer.class
+com\alexssander\controleFinanceiro\repositories\custom\LancamentoRepositoryImpl.class
+com\alexssander\controleFinanceiro\resources\exceptions\StandardError.class
