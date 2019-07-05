@@ -28,7 +28,7 @@ public class LancamentoService {
 		return lancamentoRepository.findAll();
 	}
 		
-	public Page<Lancamento> listarComPaginacao(Integer page, Integer linhasPorPagina, String ordenadoPor, String direcao){
+	public Page<Lancamento> listarComPaginacao(Integer page, Integer linhasPorPagina, String direcao,String ordenadoPor){
 		
 		PageRequest pageRequest = PageRequest.of(page, linhasPorPagina, Direction.valueOf(direcao), ordenadoPor);
 		

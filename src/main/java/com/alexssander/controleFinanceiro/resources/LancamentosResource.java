@@ -42,11 +42,11 @@ public class LancamentosResource {
 	@GetMapping("/page")
 	public ResponseEntity<Page<Lancamento>> listarComPaginacao(
 			@RequestParam(defaultValue="0")Integer page,
-			@RequestParam(defaultValue="descricao") String ordenadoPor,
+			@RequestParam(defaultValue="vencimento") String ordenadoPor,
 			@RequestParam (defaultValue ="24") Integer linhasPorPagina,
-			@RequestParam(defaultValue="ASC") String direcao){
+			@RequestParam(defaultValue="DESC") String direcao){
 		
-		Page<Lancamento> list = lancamentoService.listarComPaginacao(page, linhasPorPagina, ordenadoPor, direcao);
+		Page<Lancamento> list = lancamentoService.listarComPaginacao(page, linhasPorPagina, direcao,ordenadoPor );
 		
 		return ResponseEntity.ok().body(list);
 	}
