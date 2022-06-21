@@ -46,7 +46,7 @@
 		<hibernate-core.version>5.4.1.Final</hibernate-core.version>
 
 		<!-- MYSQL CONNECTOR -->
-		<mysql-connector-java.version>8.0.15</mysql-connector-java.version>
+		<mysql-connector-java.version>8.0.28</mysql-connector-java.version>
 
 		<!-- Spring Data JPA -->
 		<spring-data-jpa.version>2.1.9.RELEASE</spring-data-jpa.version>
